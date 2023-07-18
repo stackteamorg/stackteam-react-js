@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import ScrollToTop from './component/scrollToTop/ScrollToTop';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.rtl.min.css';
 
 
 // Home Pages Import

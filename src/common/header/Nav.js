@@ -8,7 +8,7 @@ const Nav = () => {
         <nav className="mainmenu-nav">
             <ul className="mainmenu">
                 <li className="menu-item-has-children">
-                    <Link to="#">Digital Agency <FaAngleDown /> </Link>
+                    <Link to="#">تست <FaAngleDown /> </Link>
                     <ul className="axil-submenu">
                         <li><Link to={process.env.PUBLIC_URL + "/digital-agency"}>Digital Agency</Link></li>
                         <li><Link to={process.env.PUBLIC_URL + "/creative-agency"}>Creative Agency</Link></li>
@@ -65,7 +65,7 @@ const Nav = () => {
                         <li><Link to={process.env.PUBLIC_URL + "#"}>Quote Post</Link></li> */}
                     </ul>
                 </li>
-                <li><Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>
+                <li><Link to={process.env.PUBLIC_URL + "/contact"}>تماس با ما</Link></li>
             </ul>
         </nav>
     )
